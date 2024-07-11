@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(104, 163, 182);
+}
+
+.description {
+  text-align: center;
+  height: 40px;
+}
+
+.examples {
+  text-align: center;
+  height: 40px;
+  color: rgb(248, 135, 5);
+}
+
+table {
+  background-color: rgb(174, 174, 171);
+  width: 60%;
+}
+
+#video {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}

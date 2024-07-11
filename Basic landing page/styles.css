@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 0 2%;
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  width: 5%;
+  display: inline-block;
+}
+
+.nav-bar {
+  width: 93%;
+  display: inline-block;
+}
+
+.nav-bar > ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+.nav-bar > ul > li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.hero {
+  background: #007bff;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.hero-text {
+  width: 40%;
+  color: white;
+  padding: 50px;
+}
+
+.hero-text span {
+  color: goldenrod;
+}
+
+.hero-text > p {
+  margin-bottom: 50px;
+}
+
+.button {
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid white;
+}
+
+.hero-image {
+  margin: 0;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.hero-image > img {
+  max-width: 400px;
+  margin-right: 20%;
+}
+
+.aboutus {
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 0;
+}
+
+.aboutus-text {
+  width: 62%;
+  display: inline-block;
+  padding: 50px;
+  margin: 0;
+}
+
+.aboutus-image {
+  width: 20%;
+  display: inline-block;
+}
+
+.aboutus-image > img {
+  max-width: 400px;
+}
